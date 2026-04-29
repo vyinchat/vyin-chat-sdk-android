@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.10.0] - 2026-04-29
+
+### Breaking Changes
+
+- `MessageAutoResendPolicy` default value changed from `true` to `false`. Auto-resend must now be explicitly enabled if required.
+
+### Bug Fixes
+
+- Fixed `GIMDatabase` singleton not being reset after `close()`, which could cause a crash on re-initialization.
+- Fixed `sendCustomEvent()` sending swapped `data` and `reqId` parameters.
+- Fixed Retrofit DELETE requests and `customTypes` query parameter encoding in channel APIs.
+
+---
+
 ## [1.9.2] - 2026-03-24
 
 ### Bug Fixes
