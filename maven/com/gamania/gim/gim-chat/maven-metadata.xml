@@ -3,11 +3,11 @@
   <groupId>com.gamania.gim</groupId>
   <artifactId>gim-chat</artifactId>
   <versioning>
-    <latest>v1.10.0</latest>
-    <release>v1.10.0</release>
+    <latest>1.10.0</latest>
+    <release>1.10.0</release>
     <versions>
-      <version>v1.10.0</version>
+      <version>1.10.0</version>
     </versions>
-    <lastUpdated>20260429105138</lastUpdated>
+    <lastUpdated>20260429110807</lastUpdated>
   </versioning>
 </metadata>
